@@ -1,6 +1,6 @@
 #include "GunInputComponent.h"
 #include <math.h>
-
+#include <algorithm>
 GunInputComponent::GunInputComponent(SDL_Keycode shootButton,
 		Uint32 timeInterval, Uint8 shotsPerInterval) :
 		InputComponent(), shootButton_(shootButton), timeInterval_(
