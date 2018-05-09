@@ -1,5 +1,23 @@
-﻿Build started 12/02/2018 12:41:17.
-
-Build succeeded.
-
-Time Elapsed 00:00:00.01
+﻿  Vector2D.cpp
+  Texture.cpp
+  SoundEffect.cpp
+  SDLGame.cpp
+  Resources.cpp
+  PaddleWithTransRect.cpp
+  PaddleWithMouseWithTransRect.cpp
+  PaddleWithMouse.cpp
+  PaddleWithAIWithTransRect.cpp
+  PaddleWithAI.cpp
+  Paddle.cpp
+  Music.cpp
+  main.cpp
+  GameObject.cpp
+  Font.cpp
+  ExampleGame.cpp
+c:\users\aramis\documents\tpv\tpvpractica6\proyectossdl\holasdl\examplegame.cpp(173): error C2039: 'PresAnyKey': no es un miembro de 'Resources'
+  c:\users\aramis\documents\tpv\tpvpractica6\proyectossdl\holasdl\resources.h(11): note: vea la declaración de 'Resources'
+c:\users\aramis\documents\tpv\tpvpractica6\proyectossdl\holasdl\examplegame.cpp(173): error C2065: 'PresAnyKey': identificador no declarado
+  DemoActor.cpp
+  Collisions.cpp
+  Ball.cpp
+  Generando código...
