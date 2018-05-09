@@ -1,0 +1,61 @@
+﻿  Vector2D.cpp
+  Texture.cpp
+  SoundEffect.cpp
+  SkeletonRenderer.cpp
+c:\hlocal\proyectossdl\holasdl\skeletonrenderer.cpp(42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\hlocal\proyectossdl\holasdl\skeletonrenderer.cpp(44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\hlocal\proyectossdl\holasdl\skeletonrenderer.cpp(46): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\hlocal\proyectossdl\holasdl\skeletonrenderer.cpp(48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\hlocal\proyectossdl\holasdl\skeletonrenderer.cpp(53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\hlocal\proyectossdl\holasdl\skeletonrenderer.cpp(61): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Server.cpp
+c:\hlocal\proyectossdl\holasdl\server.cpp(82): warning C4018: '<': signed/unsigned mismatch
+c:\hlocal\proyectossdl\holasdl\server.cpp(98): warning C4018: '<': signed/unsigned mismatch
+  SDLGame.cpp
+  RotationPhysics.cpp
+  Resources.cpp
+  RenderComponent.cpp
+  PlayersInfoRenderer.cpp
+  PhysicsComponent.cpp
+  Observer.cpp
+  Observable.cpp
+  NetworkMessenger.cpp
+  NetworkMessanger.cpp
+  Music.cpp
+  main.cpp
+  InputComponent.cpp
+  ImageRenderer.cpp
+  GunInputComponent.cpp
+  Generating Code...
+  Compiling...
+  GameStatusRenderer.cpp
+  GameObject.cpp
+  GameManager.cpp
+  GameCtrlInputComponent.cpp
+  FreeMoveInputComponent.cpp
+  Font.cpp
+  FillRectRenderer.cpp
+  FightersManager.cpp
+  Fighter.cpp
+  DemoActor.cpp
+  DeActivateOnBorderExit.cpp
+  Container.cpp
+  ConnectedPlayersRenderer.cpp
+  Collisions.cpp
+  CollisionManager.cpp
+  ClientConnection.cpp
+  CircularMotionPhysics.cpp
+  BulletsManager.cpp
+c:\hlocal\proyectossdl\holasdl\bulletsmanager.cpp(74): warning C4267: 'argument': conversion from 'size_t' to 'Uint16', possible loss of data
+  Bullet.cpp
+  BasicMotionPhysics.cpp
+  Generating Code...
+  Compiling...
+  BasicKBCtrlComponent.cpp
+  AsteroidsManager.cpp
+  AsteroidsGame.cpp
+  Asteroid.cpp
+  Generating Code...
+     Creating library C:\hlocal\ProyectosSDL\bin\HolaSDLDebug.lib and object C:\hlocal\ProyectosSDL\bin\HolaSDLDebug.exp
+  HolaSDL.vcxproj -> C:\hlocal\ProyectosSDL\bin\HolaSDLDebug.exe
+  HolaSDL.vcxproj -> C:\hlocal\ProyectosSDL\bin\HolaSDLDebug.pdb (Partial PDB)
