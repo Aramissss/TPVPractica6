@@ -4,17 +4,20 @@
 
 std::vector<std::string> Resources::imageFiles_ { "images/blank.png",
 		"images/tennis_ball.png", "images/keyboard.png", "images/mouse.png",
-		"images/ai.png", "images/spaceships.png", "images/airplanes.png" };
+		"images/ai.png", "images/spaceships.png", "images/airplanes.png",
+		"images/star.png", "images/astroid.png", "images/explosion.png",
+		"images/badges.png" };
 
 std::vector<Resources::FontInfo> Resources::fontFiles_ {
 		{ "fonts/ARIAL.ttf", 16 }, { "fonts/ARIAL.ttf", 24 }, {
 				"fonts/NES-Chimera.ttf", 16 }, { "fonts/NES-Chimera.ttf", 24 },
 		{ "fonts/Capture_it.ttf", 16 }, { "fonts/Capture_it.ttf", 24 } };
 
-std::vector<Resources::TextMsgInfo> Resources::textMsgs_ {
-	{ "Hello World", { COLOR(0xaaffffff) }, Resources::ARIAL16 },
-	{ "Press Any Key ...", { COLOR(0xaaffbbff) }, Resources::ARIAL24 },
-	{ "Game Over", { COLOR(0xffffbbff) }, Resources::ARIAL24 } };
+std::vector<Resources::TextMsgInfo> Resources::textMsgs_ { { "Hello World", {
+		COLOR(0xaaffffff) }, Resources::ARIAL16 }, { "Press Enter to Start", {
+		COLOR(0xaaffbbff) }, Resources::ARIAL24 }, { "Game Over", { COLOR(
+		0xffffbbff) }, Resources::ARIAL24 }, { "Waiting for other players", {
+		COLOR(0xffffbbff) }, Resources::ARIAL24 }, };
 
 std::vector<std::string> Resources::musicFiles_ { "sound/beat.wav",
 		"sound/cheer.wav", "sound/boooo.wav" };

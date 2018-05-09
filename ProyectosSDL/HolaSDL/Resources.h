@@ -1,5 +1,4 @@
-#ifndef RESOURCES_H_
-#define RESOURCES_H_
+#pragma once
 
 #include "Texture.h"
 #include "Font.h"
@@ -24,12 +23,17 @@ public:
 		MouseIcon,
 		AIIcon,
 		SpaceShips,
-		AirPlanes
+		Airplanes,
+		Star	,
+		Astroid,
+		ExplosionImage,
+		Badges
+
 	};
 
 	// Text Messages - each is loaded as an instance of a texture
 	enum TextId {
-		HelloWorld, PresAnyKey, GameOver
+		HelloWorld, PressEnterToStart, GameOver, Waiting
 	};
 
 	// Fonts -- they are pair of filename and size, each is loaded as
@@ -116,4 +120,3 @@ private:
 	SoundEffect** soundEffects_;
 };
 
-#endif /* RESOURCES_H_ */
